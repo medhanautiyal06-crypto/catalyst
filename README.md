@@ -72,7 +72,7 @@ validated against the same booking data and applied or rejected
 | GUI | Qt (Qt Widgets) |
 | Database | MySQL 8.0 |
 | DB access from C++ | Qt SQL module (`QSqlDatabase`, `QSqlQuery`, `QMYSQL` driver) |
-| Build system | CMake |
+| Build system | CMake |QMake
 | Version control | Git / GitHub |
 
 The whole project is written in C++. There is no web frontend or Node.js backend.
@@ -253,7 +253,7 @@ Long-running generation is intended to run on a worker thread (`QThread`) so the
 ### Requirements
 
 - A C++17 compiler (MinGW or MSVC on Windows, GCC/Clang elsewhere)
-- CMake
+- CMake/QMake
 - Qt (with the **Qt SQL** module and the **`QMYSQL` driver**)
 - MySQL Server 8.0 running locally
 
